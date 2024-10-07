@@ -1,17 +1,16 @@
 {
 	"schemaVersion": 1,
 	"id": "simplemud",
-	"version": "${version}",
+	"version": "1.0.0-1.21.1",
 	"name": "Simple Mud",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Turn dirt into mud by right-clicking a cauldron.",
 	"authors": [
-		"Me!"
+		"Diemond_Player"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/DiemondPlayer/SimpleMud"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/simplemud/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,15 +19,12 @@
 		]
 	},
 	"mixins": [
-		"simplemud.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.5",
 		"minecraft": "~1.21.1",
-		"java": ">=21",
-		"fabric-api": "*"
+		"java": ">=21"
 	},
 	"suggests": {
-		"another-mod": "*"
 	}
 }
